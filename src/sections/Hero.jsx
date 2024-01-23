@@ -17,18 +17,16 @@ const Hero = () => {
  
   useEffect(()=>{
     
-    console.log(city)
-  console.log(isFetching)
-  console.log(data)
+   
   
   {data&& setWethdata(data)}
   setFetching(isFetching)
-  console.log(fetching)
-},[data])
+  
+  },[data])
 
 
   
-  //const {data,isfetching}=useGetCurrentWeatherQuery({city:'london'})
+
   
 
 
